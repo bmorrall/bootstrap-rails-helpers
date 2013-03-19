@@ -8,15 +8,15 @@ bootstrap_rails_helpers is a lightweight gem that includes many helper methods u
 Installation
 ------------
 
-As most of the heleprs are based off it, if you are already using [twitter-bootstrap-rails](https://github.com/seyhunak/twitter-bootstrap-rails), then you already have most of these helpers in place.
+As most of the heleprs are based off it, if you are already using twitter-bootstrap-rails (https://github.com/seyhunak/twitter-bootstrap-rails), then you already have most of these helpers in place.
 
 If you haven't already installed Twitter Bootstrap, you will need to add it to your project.
 
 You can install Bootstrap using one of the following gems:
 
-- [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass)
-- [sass-twitter-bootstrap](https://github.com/jlong/sass-twitter-bootstrap)
-- [less-rails-bootstrap](https://github.com/metaskills/less-rails-bootstrap)
+- [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) (https://github.com/thomas-mcdonald/bootstrap-sass)
+- [sass-twitter-bootstrap](https://github.com/jlong/sass-twitter-bootstrap) (https://github.com/jlong/sass-twitter-bootstrap)
+- [less-rails-bootstrap](https://github.com/metaskills/less-rails-bootstrap) (https://github.com/metaskills/less-rails-bootstrap)
 
 Or you could add it directly to your assets pipeline by downloading [Twitter Bootstrap](http://twitter.github.com/bootstrap/) directly.
 
