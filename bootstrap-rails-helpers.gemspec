@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = BootstrapRailsHelpers::VERSION
   s.authors     = ["bmorrall"]
   s.email       = ["bemo56@hotmail.com"]
-  s.homepage    = "https://github.com/bmorrall/bootstrap_rails_helpers"
+  s.homepage    = "https://github.com/bmorrall/bootstrap-rails-helpers"
   s.summary     = %q{Twitter Bootstrap Helpers for Rails}
   s.description = %q{Adds several ActionView helpers to improve Twitter Bootstrap integration with Rails}
 

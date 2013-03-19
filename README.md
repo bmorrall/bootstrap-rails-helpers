@@ -1,9 +1,9 @@
-bootstrap_rails_helpers
+bootstrap-rails-helpers
 =======================
 
 [Bootstrap](http://twitter.github.com/bootstrap/) is a toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.
 
-bootstrap_rails_helpers is a lightweight gem that includes many helper methods used in many Rails applications.
+bootstrap-rails-helpers is a lightweight gem that includes many helper methods used in many Rails applications.
 
 Installation
 ------------
@@ -23,7 +23,7 @@ Or you could add it directly to your assets pipeline by downloading [Twitter Boo
 Once you have Twitter Bootstrap available you just need to add the following to your Gemfile.
 
 ```ruby
-gem 'bootstrap_rails_helpers'
+gem 'bootstrap-rails-helpers'
 ```
 
 Once that's in place, run `bundle install` and you're ready.
