@@ -1,0 +1,4 @@
+<%= content_tag :div, nil, options, escape do %>
+  <% unless options[:hide_close_button] %><button class="close" data-dismiss="modal">&times;</button><% end %>
+  <%= yield %>
+<% end %>
