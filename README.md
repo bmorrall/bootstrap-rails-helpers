@@ -37,7 +37,7 @@ Rails provides a standard convention called flash to display alerts (including e
 
 Add the following tag to `<%= bootstrap_flash %>` to your layout in order for each message to be displayed as an [Alerts](http://twitter.github.com/bootstrap/components.html#alerts).
 
-Rails uses :notice and :alert as its defailt flash message keys. The `bootstrap_flash` converts these status to `.alert-success` and `.alert-error`.
+Rails uses :notice and :alert as its defailt flash message keys. The `bootstrap_flash` tag converts these statuses to `.alert-success` and `.alert-error`.
 
 You can add individual alert boxes using the following tag:
 
@@ -93,6 +93,20 @@ en:
       edit: 'Edit Example'
 ```
 
+### Glyphs
+
+You can easily use [Icons](http://twitter.github.com/bootstrap/base-css.html#icons) by [Glyphicons](http://glyphicons.com/) in your views by using the `glyph` tag.
+
+```ruby
+<%= glyph(:share_alt) %>
+# => <i class="icon-share-alt"></i>
+```
+You can also use the white icon variation:
+
+```ruby
+glyph(:lock, :white)
+# => <i class="icon-lock icon-white"></i>
+```
 
 License
 -------
