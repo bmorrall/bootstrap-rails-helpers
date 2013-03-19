@@ -6,10 +6,10 @@ Gem::Specification.new do |s|
   s.name        = "bootstrap_rails_helpers"
   s.version     = BootstrapRailsHelpers::VERSION
   s.authors     = ["bmorrall"]
-  s.email       = ["ben.morrall@sitepoint.com"]
+  s.email       = ["bemo56@hotmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Twitter Bootstrap Helpers for Rails}
+  s.description = %q{Adds Helpers for Rails that take advantage of Twitter Boostrap, based off code from https://github.com/seyhunak/twitter-bootstrap-rails}
 
   s.rubyforge_project = "bootstrap_rails_helpers"
 
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec'
+
 end
