@@ -86,12 +86,24 @@ en:
       edit: 'Edit'
       show: 'Show'
       new: 'New'
-      
+
     examples:
       index: 'Examples'
       new: 'New Example'
       edit: 'Edit Example'
 ```
+
+#### Breadcrumbs in Controllers
+
+While I don't explicitly recommend it; it might be useful to add breadcrumbs directly from your Controllers. You can use the `add_breacrumb` tag by including `BootstrapRailsHelpers::Breadcrumbs` in your Controller, e.g.
+
+```ruby
+class ExampleController < ApplicationController
+  include BootstrapRailsHelpers::Breadcrumbs
+
+  add_breadcrumb :index, :examples_url
+end
+````
 
 ### Glyphs
 
