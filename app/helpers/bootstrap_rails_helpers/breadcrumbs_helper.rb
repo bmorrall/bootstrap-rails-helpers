@@ -9,9 +9,12 @@ module BootstrapRailsHelpers::BreadcrumbsHelper
 
   def translate_breadcrumb(name, controller_path)
     scope = [:breadcrumbs]
-    namespace = controller_path.split('/')
-    namespace.last.sub!('_controller', '')
-    scope += namespace
+    namespace_path = controller_path || params[:controller]
+    unless namespace_path.nil?
+      namespace = namespace_path.split('/')
+      namespace.last.sub!('_controller', '')
+      scope += namespace
+    end
 
     I18n.t name, :scope => scope, :default => I18n.t("breadcrumbs.defaults.#{name}")
   end
