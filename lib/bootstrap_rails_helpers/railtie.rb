@@ -1,5 +1,6 @@
 require 'bootstrap_rails_helpers/v3/flash_helper'
 require 'bootstrap_rails_helpers/v3/glyph_helper'
+require 'bootstrap_rails_helpers/v3/link_helper'
 
 require 'bootstrap_rails_helpers/v2/breadcrumbs_helper'
 require 'bootstrap_rails_helpers/v2/flash_helper'
@@ -13,6 +14,7 @@ module BootstrapRailsHelpers
         ActiveSupport.on_load :action_view do
           include BootstrapRailsHelpers::V3::FlashHelper
           include BootstrapRailsHelpers::V3::GlyphHelper
+          include BootstrapRailsHelpers::V3::LinkHelper
         end
         ActiveSupport.on_load :action_controller do
           append_view_path File.dirname(__FILE__) + "/../../app/views/v3"
