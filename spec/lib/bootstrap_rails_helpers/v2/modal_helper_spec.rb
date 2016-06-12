@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe BootstrapRailsHelpers::ModalHelper do
+describe BootstrapRailsHelpers::V2::ModalHelper do
 
   context 'with dummy class' do
     class DummyClass; end
     before(:all) do
-      DummyClass.send :include, BootstrapRailsHelpers::ModalHelper
+      DummyClass.send :include, BootstrapRailsHelpers::V2::ModalHelper
       @dummy = DummyClass.new
     end
     it { @dummy.should respond_to(:modal_dialog) }

@@ -1,5 +1,5 @@
 module BootstrapRailsHelpers::Breadcrumbs
-  include BootstrapRailsHelpers::BreadcrumbsHelper
+  include BootstrapRailsHelpers::V2::BreadcrumbsHelper
 
   def self.included(base)
     base.extend(ClassMethods)
